@@ -5,7 +5,7 @@
 
 int Soma;
 
-void Somat(int number);
+void Somat(int);
 
 int main()
 {
@@ -15,11 +15,13 @@ int main()
     scanf("%i", &num);
     Somat(num);
     printf("O valor da soma de 1 até %i é igual a: %i", num, Soma);
+
     return 0;
 }
 
 void Somat(int number)
 {
+    Soma = 0;
     for (int i = 0; i <= number; i++)
     {
         Soma += i;
