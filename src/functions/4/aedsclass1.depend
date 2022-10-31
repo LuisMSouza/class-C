@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1666913414 source:c:\users\lmigu\desktop\puc\aeds i\class\src\aedsclass1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
