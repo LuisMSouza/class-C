@@ -1,6 +1,7 @@
 .vscode
 *.exe
 class
-.cbp
-.depend
-.layout
+*.cbp
+*.depend
+*.layout
+*.zip
